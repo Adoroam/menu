@@ -7,6 +7,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="dist/prop/bootstrap.css">
     <link rel="stylesheet" href="dist/prop/propeller.css">
+    <link rel="stylesheet" href="dist/all.css">
     <script type="text/javascript" src="dist/prop/jquery.js"></script>
     <script type="text/javascript" src="dist/prop/bootstrap.js"></script>
     <script type="text/javascript" src="dist/prop/propeller.js"></script>
@@ -15,8 +16,31 @@
   <body>
     <div id="app">
       <div class="pmd-card pmd-z-depth">
+        <div class="pmd-card-title">
+          <div class="pmd-card-title-text">
+            <h1>Ado's Chill Spot</h1>
+          </div>
+          <div class="pmd-card-subtitle-text">
+            <p>Welcome to the party!</p>
+          </div>
+        </div>
+        <div class="pmd-card-media">
+            <img class="img-responsive" src="https://images4.alphacoders.com/165/1656.jpg">
+        </div>
         <div class="pmd-card-body">
-          Welcome to Ado's House!
+          <h3>FAQ <span><small>so you have some questions...</small></span></h3>
+          <dl class="faq">
+            <dt>Why does everyone have wings?</dt>
+            <dd>I'm probably running Genesis' dress up app.</dd>
+          </dl>
+          <dl>
+            <dt>How do I add music to the main screen?</dt>
+            <dd>There is a triangluar play button that allows you to search for music on youtube. Songs will then play in order that they were sent to the queue.</dd>
+          </dl>
+          <dl>
+            <dt>Will I have my outfit if I leave the room?</dt>
+            <dd>Short answer: No. If someone else is running the dress up app in their room you will automatically have the same outfit you put on, but by default most rooms are not using it.</dd>
+          </dl>
         </div>
         <div class="pmd-card-actions">
           <a v-for="link in links" :href="link.url" class="btn pmd-btn pmd-ripple-effect btn-primary">{{ link.title }}</a>
