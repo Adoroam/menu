@@ -1,0 +1,24 @@
+{
+  "name": "altspace.hud",
+  "version": "0.0.1",
+  "description": "personal menu for altspace.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "altspacevr"
+  ],
+  "author": "Ado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1"
+  },
+  "standard": {
+    "globals": ["Vue"]
+  }
+}
